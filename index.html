@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Local API Example</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Inspeções</h1>
+    <div>
+      <label for="status-filter">Filtrar por Status:</label>
+      <select id="status-filter">
+        <option value="all">Todos</option>
+        <option value="Concluído">Concluído</option>
+        <option value="Em andamento">Em andamento</option>
+        <option value="Aguardando liberação">Aguardando liberação</option>
+      </select>
+    </div>
+    <ul id="inspections-list"></ul>
+    <h1>Inspetores</h1>
+    <ul id="inspectors-list"></ul>
+    <script src="js/main.js" type="module"></script>
+  </body>
+</html>

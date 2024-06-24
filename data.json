@@ -1,0 +1,126 @@
+{
+  "inspections": [
+    {
+      "id": 4,
+      "number": "TCLU 234567-8",
+      "status": "Em andamento",
+      "location": "Porto de Rio Grande"
+    },
+    {
+      "id": 5,
+      "number": "CBHU 876543-2",
+      "status": "Em andamento",
+      "location": "Porto de Vitória"
+    },
+    {
+      "id": 6,
+      "number": "GLDU 543210-9",
+      "status": "Aguardando liberação",
+      "location": "Porto de Rio de Janeiro"
+    },
+    {
+      "id": 7,
+      "number": "MNBU 987654-3",
+      "status": "Aguardando liberação",
+      "location": "Porto de Salvador"
+    },
+    {
+      "id": 8,
+      "number": "NYKU 345678-1",
+      "status": "Concluído",
+      "location": "Terminal de Fortaleza"
+    },
+    {
+      "id": 9,
+      "number": "OOLU 654321-5",
+      "status": "Concluído",
+      "location": "Porto de Manaus"
+    },
+    {
+      "id": 10,
+      "number": "HLBU 123456-7",
+      "status": "Em andamento",
+      "location": "Terminal de São Francisco do Sul"
+    },
+    {
+      "id": 11,
+      "number": "SEGU 876543-2",
+      "status": "Aguardando liberação",
+      "location": "Porto de Itajaí"
+    },
+    {
+      "id": 12,
+      "number": "EMCU 345678-9",
+      "status": "Concluído",
+      "location": "Porto de Natal"
+    },
+    {
+      "id": 13,
+      "number": "HDMU 987654-3",
+      "status": "Em andamento",
+      "location": "Porto de Recife"
+    }
+  ],
+  "inspectors": [
+    {
+      "id": 4,
+      "name": "Maria Oliveira",
+      "city": "Salvador - BA",
+      "phone": "(71) 9 7654 3210"
+    },
+    {
+      "id": 5,
+      "name": "Lucas Santos",
+      "city": "Florianópolis - SC",
+      "phone": "(48) 9 8765 4321"
+    },
+    {
+      "id": 6,
+      "name": "Juliana Lima",
+      "city": "Porto Alegre - RS",
+      "phone": "(51) 9 9876 5432"
+    },
+    {
+      "id": 7,
+      "name": "Rafaela Souza",
+      "city": "Brasília - DF",
+      "phone": "(61) 9 8765 4321"
+    },
+    {
+      "id": 8,
+      "name": "Fernando Silva",
+      "city": "Belém - PA",
+      "phone": "(91) 9 7654 3210"
+    },
+    {
+      "id": 9,
+      "name": "Mariana Costa",
+      "city": "Curitiba - PR",
+      "phone": "(41) 9 8765 4321"
+    },
+    {
+      "id": 10,
+      "name": "Gabriel Oliveira",
+      "city": "João Pessoa - PB",
+      "phone": "(83) 9 9876 5432"
+    },
+    {
+      "id": 11,
+      "name": "Isabela Santos",
+      "city": "Recife - PE",
+      "phone": "(81) 9 8765 4321"
+    },
+    {
+      "id": 12,
+      "name": "Daniel Almeida",
+      "city": "Porto Velho - RO",
+      "phone": "(69) 9 7654 3210"
+    },
+    {
+      "id": 13,
+      "name": "Carolina Lima",
+      "city": "Manaus - AM",
+      "phone": "(92) 9 8765 4321"
+    }
+  ]
+}

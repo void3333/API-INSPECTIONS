@@ -1,0 +1,88 @@
+/* Estilo básico para o corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f0f0f0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Estilo para os títulos */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Estilo para o seletor de filtro */
+label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+#status-filter {
+  padding: 5px;
+  font-size: 16px;
+}
+
+/* Estilo para as listas de inspeções e inspetores */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Estilo para cada card */
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  width: 300px;
+}
+
+/* Estilo para o título do card */
+.card h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Estilo para os parágrafos dentro do card */
+.card p {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+/* Estilos específicos para os diferentes status */
+.card.completed {
+  border-left: 5px solid green;
+}
+
+.card.in-progress {
+  border-left: 5px solid orange;
+}
+
+.card.pending {
+  border-left: 5px solid red;
+}
+
+.card.unknown {
+  border-left: 5px solid gray;
+}
+
+/* Estilo para o corpo da página quando a largura é menor */
+@media screen and (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  .card {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
