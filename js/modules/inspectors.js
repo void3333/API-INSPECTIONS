@@ -1,4 +1,5 @@
 // js/modules/inspectors.js
+
 export function displayInspectors(inspectors) {
   const inspectorsList = document.getElementById("inspectors-list");
   inspectorsList.innerHTML = ""; // Clear the list before adding new items
@@ -9,7 +10,7 @@ export function displayInspectors(inspectors) {
   });
 }
 
-export function createInspectorCard(inspector) {
+function createInspectorCard(inspector) {
   const card = document.createElement("div");
   card.classList.add("card");
 

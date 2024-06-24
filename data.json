@@ -4,61 +4,71 @@
       "id": 4,
       "number": "TCLU 234567-8",
       "status": "Em andamento",
-      "location": "Porto de Rio Grande"
+      "location": "Porto de Rio Grande",
+      "product": "Meio Peito de Frango"
     },
     {
       "id": 5,
       "number": "CBHU 876543-2",
       "status": "Em andamento",
-      "location": "Porto de Vitória"
+      "location": "Porto de Vitória",
+      "product": "Meio Peito de Frango"
     },
     {
       "id": 6,
       "number": "GLDU 543210-9",
       "status": "Aguardando liberação",
-      "location": "Porto de Rio de Janeiro"
+      "location": "Porto de Rio de Janeiro",
+      "product": "Meio Peito de Frango"
     },
     {
       "id": 7,
       "number": "MNBU 987654-3",
       "status": "Aguardando liberação",
-      "location": "Porto de Salvador"
+      "location": "Porto de Salvador",
+      "product": "Meio Peito de Frango"
     },
     {
       "id": 8,
       "number": "NYKU 345678-1",
       "status": "Concluído",
-      "location": "Terminal de Fortaleza"
+      "location": "Terminal de Fortaleza",
+      "product": "Meio Peito de Frango"
     },
     {
       "id": 9,
       "number": "OOLU 654321-5",
       "status": "Concluído",
-      "location": "Porto de Manaus"
+      "location": "Porto de Manaus",
+      "product": "Meio Peito de Frango"
     },
     {
       "id": 10,
       "number": "HLBU 123456-7",
       "status": "Em andamento",
-      "location": "Terminal de São Francisco do Sul"
+      "location": "Terminal de São Francisco do Sul",
+      "product": "Meio Peito de Frango"
     },
     {
       "id": 11,
       "number": "SEGU 876543-2",
       "status": "Aguardando liberação",
-      "location": "Porto de Itajaí"
+      "location": "Porto de Itajaí",
+      "product": "Meio Peito de Frango"
     },
     {
       "id": 12,
       "number": "EMCU 345678-9",
       "status": "Concluído",
-      "location": "Porto de Natal"
+      "location": "Porto de Natal",
+      "product": "Meio Peito de Frango"
     },
     {
       "id": 13,
       "number": "HDMU 987654-3",
       "status": "Em andamento",
-      "location": "Porto de Recife"
+      "location": "Porto de Recife",
+      "product": "Meio Peito de Frango"
     }
   ],
   "inspectors": [

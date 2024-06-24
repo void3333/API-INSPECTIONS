@@ -36,6 +36,11 @@ ul {
   justify-content: center;
 }
 
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
 /* Estilo para cada card */
 .card {
   background-color: #fff;
@@ -85,4 +90,9 @@ ul {
     width: 100%;
     margin: 10px 0;
   }
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
 }

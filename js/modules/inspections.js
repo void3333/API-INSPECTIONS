@@ -1,4 +1,5 @@
-// js/modules/inspections.js
+import { applyStatusStyle, setCardStyle } from './utils.js';
+
 export function displayInspections(inspections) {
   const inspectionsList = document.getElementById("inspections-list");
   inspectionsList.innerHTML = ""; // Clear the list before adding new items
@@ -21,46 +22,17 @@ export function createCard(inspection) {
   statusPara.textContent = `Status: ${inspection.status}`;
   card.appendChild(statusPara);
 
-  const locationPara = document.createElement("p");
-  locationPara.textContent = `Local: ${inspection.location}`;
-  card.appendChild(locationPara);
-
   applyStatusStyle(card, inspection.status);
+
+  // Add click event to navigate to container details
+  card.addEventListener("click", () => {
+    navigateToDetailsPage(inspection.id);
+  });
 
   return card;
 }
 
-export function applyStatusStyle(card, status) {
-  let backgroundColor, textColor;
-
-  switch (status) {
-    case "Concluído":
-      backgroundColor = "green";
-      textColor = "white";
-      break;
-    case "Em andamento":
-      backgroundColor = "orange";
-      textColor = "white";
-      break;
-    case "Aguardando liberação":
-      backgroundColor = "red";
-      textColor = "white";
-      break;
-    default:
-      backgroundColor = "gray";
-      textColor = "black";
-      break;
-  }
-
-  setCardStyle(card, backgroundColor, textColor);
+function navigateToDetailsPage(id) {
+  window.location.href = `container-details.html?id=${id}`;
 }
 
-export function setCardStyle(card, backgroundColor, textColor) {
-  card.style.backgroundColor = backgroundColor;
-  card.style.color = textColor;
-
-  // Set text color for all child elements (h2, p, etc.)
-  card.querySelectorAll("h2, p").forEach((element) => {
-    element.style.color = textColor;
-  });
-}
